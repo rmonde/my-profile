@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | IT Architect & AI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0078d4;
+            /* Azure Blue */
+            --bg: #0d1117;
+            /* GitHub Dark Style */
+            --card-bg: #161b22;
+            --text: #c9d1d9;
+            --heading: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        /* Profile Header */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--heading);
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* Grid Layout for Skills */
+        .section {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #30363d;
+        }
+
+        h2 {
+            border-bottom: 1px solid var(--primary);
+            padding-bottom: 10px;
+            color: var(--heading);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: rgba(0, 120, 212, 0.1);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid var(--primary);
+        }
+
+        /* Buttons */
+        .cta-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #005a9e;
+            transform: scale(1.05);
+        }
+
+        /* Footer links */
+        .footer-links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://cdn-icons-png.flaticon.com/512/6840/6840478.png" alt="Profile" class="profile-img">
+            <h1>[Your Name]</h1>
+            <p class="subtitle">Cloud Architect | AI Solutions Specialist</p>
+            <p>Expert in Azure Foundry, Terraform, and Enterprise Networking.</p>
+        </header>
+
+        <div class="section">
+            <h2>Core Expertise</h2>
+            <div class="tags">
+                <span class="tag">Azure AI Foundry</span>
+                <span class="tag">Terraform (IaC)</span>
+                <span class="tag">Azure AI Search</span>
+                <span class="tag">Networking & Security</span>
+                <span class="tag">Python / PowerShell</span>
+                <span class="tag">RAG Architecture</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Recent Project: "The Corporate Brain"</h2>
+            <p>Designed a Retrieval-Augmented Generation (RAG) system using Azure AI Search and Foundry to index 1,000+
+                internal documents, reducing HR response time by 40%.</p>
+        </div>
+
+        <div class="cta-container">
+            <a href="mailto:your-email@example.com" class="btn">Let's Connect</a>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
