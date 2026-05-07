@@ -1,174 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Monde | IT Architect & AI Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #0078d4;
-            /* Azure Blue */
-            --bg: #0d1117;
-            /* GitHub Dark Style */
-            --card-bg: #161b22;
-            --text: #c9d1d9;
-            --heading: #ffffff;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-
-        /* Profile Header */
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid var(--primary);
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            color: var(--heading);
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        .subtitle {
-            color: var(--primary);
-            font-weight: 600;
-            letter-spacing: 1px;
-        }
-
-        /* Grid Layout for Skills */
-        .section {
-            background: var(--card-bg);
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            border: 1px solid #30363d;
-        }
-
-        h2 {
-            border-bottom: 1px solid var(--primary);
-            padding-bottom: 10px;
-            color: var(--heading);
-        }
-
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-        }
-
-        .tag {
-            background: rgba(0, 120, 212, 0.1);
-            color: var(--primary);
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            border: 1px solid var(--primary);
-        }
-
-        /* Buttons */
-        .cta-container {
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        .btn {
-            background: var(--primary);
-            color: white;
-            padding: 12px 30px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: 0.3s ease;
-        }
-
-        .btn:hover {
-            background: #005a9e;
-            transform: scale(1.05);
-        }
-
-        /* Footer links */
-        .footer-links {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .footer-links a {
-            color: var(--text);
-            text-decoration: none;
-            font-size: 1.2rem;
-        }
-
-        .footer-links a:hover {
-            color: var(--primary);
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rahul Monde — Solution Architect & Technical Lead specializing in Azure, Kubernetes, Terraform and Agentic AI. 16+ years building scalable cloud platforms." />
+    <meta name="author" content="Rahul Monde" />
+    <meta property="og:title" content="Rahul Monde | Cloud, DevOps & AI Architect" />
+    <meta property="og:description" content="Solution Architect & Technical Lead — Azure, Kubernetes, Terraform, Agentic AI." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.monderahul.in" />
+    <title>Rahul Monde | Cloud, DevOps & AI Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="container">
-        <header>
-            <img src="https://cdn-icons-png.flaticon.com/512/6840/6840478.png" alt="Profile" class="profile-img">
-            <h1>[Your Name]</h1>
-            <p class="subtitle">Cloud Architect | AI Solutions Specialist</p>
-            <p>Expert in Azure Foundry, Terraform, and Enterprise Networking.</p>
-        </header>
+    <nav class="nav" aria-label="Primary">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#top">
+                <span class="brand-mark">RM</span>
+                <span class="brand-name">Rahul Monde</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certs</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="section">
-            <h2>Core Expertise</h2>
-            <div class="tags">
-                <span class="tag">Azure AI Foundry</span>
-                <span class="tag">Terraform (IaC)</span>
-                <span class="tag">Azure AI Search</span>
-                <span class="tag">Networking & Security</span>
-                <span class="tag">Python / PowerShell</span>
-                <span class="tag">RAG Architecture</span>
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero" id="top">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <p class="eyebrow"><span class="dot"></span> Available for AI engineering &amp; cloud architecture roles</p>
+                    <h1>
+                        Hi, I'm <span class="grad">Rahul Monde</span>.<br />
+                        I architect cloud platforms <span class="amp">&amp;</span> ship AI agents.
+                    </h1>
+                    <p class="lede">
+                        Solution Architect &amp; Technical Lead with <strong>16 years</strong> across Azure, GCP and AWS. I modernize infrastructure with Kubernetes &amp; Terraform, harden the SDLC with DevSecOps, and now build Agentic-AI workflows that take real load off engineering teams.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn btn-primary" href="Resume-Rahul_Monde.pdf" download>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Download Resume
+                        </a>
+                        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                    </div>
+                    <ul class="hero-stats">
+                        <li><span class="stat-num">16</span><span class="stat-label">years in tech</span></li>
+                        <li><span class="stat-num">3</span><span class="stat-label">major clouds</span></li>
+                        <li><span class="stat-num">99.9%</span><span class="stat-label">platform uptime</span></li>
+                        <li><span class="stat-num">+30%</span><span class="stat-label">IaC velocity via Copilot</span></li>
+                    </ul>
+                </div>
+
+                <div class="hero-card">
+                    <div class="avatar avatar-photo">
+                        <img src="IMG_4493.jpg" alt="Rahul Monde" loading="eager" />
+                    </div>
+                    <p class="card-title">Cloud · DevOps · AI</p>
+                    <ul class="chip-row">
+                        <li class="chip">Azure</li>
+                        <li class="chip">Kubernetes</li>
+                        <li class="chip">Terraform</li>
+                        <li class="chip">Apigee</li>
+                        <li class="chip">RAG</li>
+                        <li class="chip">Agents</li>
+                    </ul>
+                    <div class="card-foot">
+                        <span class="status-dot"></span>
+                        <span>Currently studying <strong>AI-102</strong> &amp; building agents with Claude</span>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Recent Project: "The Corporate Brain"</h2>
-            <p>Designed a Retrieval-Augmented Generation (RAG) system using Azure AI Search and Foundry to index 1,000+
-                internal documents, reducing HR response time by 40%.</p>
-        </div>
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <header class="section-head">
+                <p class="section-kicker">// 01 — About</p>
+                <h2>From Unix support to Agentic AI</h2>
+            </header>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>
+                        I started out as a Unix L1 engineer in 2009 and grew into a Solution Architect &amp; Technical Lead at <strong>Globant</strong>, where I lead cloud and DevOps engagements for enterprise customers. My day-to-day blends hands-on platform engineering with pre-sales architecture, talent strategy, and now Generative AI integration.
+                    </p>
+                    <p>
+                        I'm AWS, GCP and <strong>Azure</strong>-certified, and I'm deepening my AI expertise — currently preparing for <strong>AI-102</strong> (Designing &amp; Implementing an Azure AI Solution) and recently completed Google Cloud's Generative AI certification. I experiment with Azure AI Foundry, Azure AI Search and Apigee-fronted GPT deployments. My next goal is to ship an agent of my own using the Claude Agent SDK.
+                    </p>
+                    <p>
+                        I write on LinkedIn and Medium about the gnarly bits — debugging arcs, wrong hypotheses, and the small insights that save teams hours.
+                    </p>
+                </div>
+                <aside class="about-side">
+                    <h3>Quick facts</h3>
+                    <dl class="facts">
+                        <div><dt>Role</dt><dd>Solution Architect &amp; Tech Lead</dd></div>
+                        <div><dt>Company</dt><dd>Globant India Pvt. Ltd.</dd></div>
+                        <div><dt>Location</dt><dd>India</dd></div>
+                        <div><dt>Languages</dt><dd>English · Hindi · Marathi</dd></div>
+                        <div><dt>Education</dt><dd>B.Sc. Information Technology</dd></div>
+                        <div><dt>Focus</dt><dd>Cloud · DevSecOps · Agentic AI</dd></div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
 
-        <div class="cta-container">
-            <a href="mailto:your-email@example.com" class="btn">Let's Connect</a>
-        </div>
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <header class="section-head">
+                <p class="section-kicker">// 02 — Skills</p>
+                <h2>What I bring to a team</h2>
+                <p class="section-sub">Self-rated on a 1–5 scale: 1 = theoretical · 3 = independent · 5 = expert / can teach.</p>
+            </header>
 
-        <div class="footer-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">Twitter</a>
-        </div>
-    </div>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Cloud &amp; Platform</h3>
+                    <ul class="skill-list" data-group="cloud"></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>DevOps &amp; Automation</h3>
+                    <ul class="skill-list" data-group="devops"></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Languages &amp; Tools</h3>
+                    <ul class="skill-list" data-group="lang"></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Observability &amp; AI</h3>
+                    <ul class="skill-list" data-group="ai"></ul>
+                </div>
+            </div>
+        </section>
 
+        <!-- CERTIFICATIONS -->
+        <section class="section" id="certifications">
+            <header class="section-head">
+                <p class="section-kicker">// 03 — Certifications</p>
+                <h2>Validated, in flight, and from a previous chapter</h2>
+                <p class="section-sub">Cloud and AI certifications I've earned, am currently pursuing, or have held in the past.</p>
+            </header>
+
+            <div class="cert-grid">
+                <article class="cert-card cert-active">
+                    <div class="cert-status-tag">In progress</div>
+                    <div class="cert-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 14l-2 7 5-3 5 3-2-7"/></svg>
+                    </div>
+                    <h3>Microsoft Certified: AI Engineer Associate</h3>
+                    <p class="cert-code">AI-102 · Designing &amp; Implementing an Azure AI Solution</p>
+                    <p class="cert-issuer">Microsoft · target 2026</p>
+                </article>
+
+                <article class="cert-card cert-active">
+                    <div class="cert-status-tag">Active</div>
+                    <div class="cert-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 14l-2 7 5-3 5 3-2-7"/></svg>
+                    </div>
+                    <h3>Generative AI</h3>
+                    <p class="cert-code">Generative AI certification</p>
+                    <p class="cert-issuer">Google Cloud</p>
+                </article>
+
+                <article class="cert-card cert-expired">
+                    <div class="cert-status-tag">Previously certified</div>
+                    <div class="cert-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.4 0 4.6.94 6.24 2.46"/><polyline points="22 4 12 14 9 11"/></svg>
+                    </div>
+                    <h3>Certified Kubernetes Administrator</h3>
+                    <p class="cert-code">CKA · CNCF / Linux Foundation</p>
+                    <p class="cert-issuer">Hands-on, performance-based exam · skills retained</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience">
+            <header class="section-head">
+                <p class="section-kicker">// 04 — Experience</p>
+                <h2>16 years, six companies, one direction: up the stack</h2>
+            </header>
+
+            <ol class="timeline">
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">May 2019 — Present · 7 yrs</p>
+                        <h3>Solution Architect &amp; Technical Lead — Cloud, DevOps, AI</h3>
+                        <p class="t-org">Globant India Pvt. Ltd.</p>
+                        <ul class="t-bullets">
+                            <li>Govern hybrid-cloud lifecycle on <strong>Azure &amp; GCP</strong>, holding 99.9% uptime for client-facing APIs.</li>
+                            <li>Accelerated IaC delivery <strong>+30%</strong> using GitHub Copilot as a pair-programmer for Ansible, Python and Node.js automations.</li>
+                            <li>Engineered Node.js / Python utilities to extend the <strong>Apigee Edge</strong> platform with custom admin tooling.</li>
+                            <li>Embedded DevSecOps scanning (<strong>Mend, SonarQube, AquaSec, Checkmarx</strong>) into CI/CD pipelines.</li>
+                            <li>Deployed GPT models behind an Apigee proxy for rate limiting, load balancing &amp; guardrails — reducing tokens and hallucinations.</li>
+                            <li>Built a <strong>sentiment-analysis agent</strong> inside Globant's Enterprise AI tool.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">May 2016 — May 2019 · 3 yrs</p>
+                        <h3>AWS Cloud Engineer</h3>
+                        <p class="t-org">Cognizant Technology Solutions</p>
+                        <p>Designed and operated AWS workloads for enterprise customers — provisioning, hardening, and migrations.</p>
+                    </div>
+                </li>
+
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">Sep 2014 — Mar 2016 · 1.5 yrs</p>
+                        <h3>AWS Cloud Admin / Unix Administrator</h3>
+                        <p class="t-org">Tata Consultancy Services</p>
+                        <p>Hybrid AWS + Unix administration across regulated workloads. Patch, monitor, automate — repeat.</p>
+                    </div>
+                </li>
+
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">Aug 2012 — Sep 2014 · 2 yrs</p>
+                        <h3>Production Support Engineer</h3>
+                        <p class="t-org">Cybage Software</p>
+                        <p>Owned 24×7 production support for revenue-critical services — incident response, RCA, and runbook hardening.</p>
+                    </div>
+                </li>
+
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">Apr 2012 — Aug 2012</p>
+                        <h3>Unix Administrator</h3>
+                        <p class="t-org">SANPulse</p>
+                    </div>
+                </li>
+
+                <li class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <p class="t-period">Nov 2009 — Apr 2012 · 2.5 yrs</p>
+                        <h3>Unix L1 Support Engineer</h3>
+                        <p class="t-org">Tech Mahindra</p>
+                        <p>Where it all started — tickets, terminals, and learning that "it works on my machine" is never an answer.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- PROJECTS / WRITING -->
+        <section class="section" id="projects">
+            <header class="section-head">
+                <p class="section-kicker">// 05 — Projects &amp; Writing</p>
+                <h2>Selected work</h2>
+                <p class="section-sub">A mix of platform, automation and AI experiments. More on GitHub.</p>
+            </header>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">Agentic AI</span>
+                        <h3>Sentiment-Analysis Agent</h3>
+                    </header>
+                    <p>Embedded inside Globant's Enterprise AI tool. Classifies free-form feedback streams and routes them to the right squad.</p>
+                    <ul class="proj-stack">
+                        <li>LLM</li><li>Prompt engineering</li><li>Guardrails</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">GenAI Platform</span>
+                        <h3>GPT-on-Apigee Gateway</h3>
+                    </header>
+                    <p>GPT models deployed behind a Google Apigee proxy with rate limiting, load balancing and customer-codebase context — cutting tokens &amp; hallucinations.</p>
+                    <ul class="proj-stack">
+                        <li>Apigee</li><li>OpenAI/Azure OpenAI</li><li>Node.js</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">DevSecOps</span>
+                        <h3>Pipeline Hardening Suite</h3>
+                    </header>
+                    <p>Mend, SonarQube, AquaSec and Checkmarx wired into Azure DevOps + GitHub Actions, with vulnerability triage runbooks.</p>
+                    <ul class="proj-stack">
+                        <li>Azure DevOps</li><li>GitHub Actions</li><li>SAST/SCA</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">IaC</span>
+                        <h3>Copilot-Augmented Terraform &amp; Ansible</h3>
+                    </header>
+                    <p>Reorganized IaC repos for human + AI pair-programming. Result: ~30% faster delivery without sacrificing review depth.</p>
+                    <ul class="proj-stack">
+                        <li>Terraform</li><li>Ansible</li><li>GitHub Copilot</li>
+                    </ul>
+                </article>
+
+                <article class="project-card project-card--writing">
+                    <header>
+                        <span class="proj-tag">Writing</span>
+                        <h3>LinkedIn &amp; Medium</h3>
+                    </header>
+                    <p>I share debugging arcs, wrong hypotheses, and the small insights that save teams hours. Topics: Azure, Kubernetes, Apigee, Agentic AI.</p>
+                    <a class="proj-link" href="https://www.linkedin.com/in/rahul-monde-ab44b412" target="_blank" rel="noopener">Visit LinkedIn →</a>
+                </article>
+
+                <article class="project-card project-card--cta">
+                    <header>
+                        <span class="proj-tag">Coming soon</span>
+                        <h3>My first Agentic AI build</h3>
+                    </header>
+                    <p>An autonomous agent built with the Claude Agent SDK — turning my "build at least one agent of my own" goal into a shipped artifact.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-contact" id="contact">
+            <header class="section-head">
+                <p class="section-kicker">// 06 — Contact</p>
+                <h2>Let's build something</h2>
+                <p class="section-sub">Best for: cloud architecture reviews, platform engineering, AI/agent integration, technical leadership.</p>
+            </header>
+
+            <div class="contact-cta">
+                <a class="btn btn-primary" href="mailto:monde_rahul@yahoo.co.in">Email me</a>
+                <a class="btn btn-ghost" href="https://www.linkedin.com/in/rahul-monde-ab44b412" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn btn-ghost" href="https://github.com/rmonde" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© <span id="year"></span> Rahul Monde · Built with HTML, CSS &amp; a little Claude.</p>
+            <p class="footer-sub">Hosted on GitHub Pages · monderahul.in</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
