@@ -1,0 +1,8 @@
+# macOS noise
+.DS_Store
+
+# Working files from PDF editing & image conversion (safe to ignore)
+_*.png
+_*.pdf
+profile.jpg
+Resume-Rahul_Monde.original.pdf

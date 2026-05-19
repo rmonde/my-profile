@@ -712,6 +712,17 @@ a:hover { color: var(--heading); }
     flex-wrap: wrap;
     gap: 8px;
 }
+.footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color .2s ease;
+    margin-left: 4px;
+}
+.footer-link:hover { color: var(--primary); }
+.footer-link svg { display: inline-block; vertical-align: -2px; }
 
 /* Reveal-on-scroll */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
