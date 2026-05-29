@@ -1,0 +1,88 @@
+PERSONAL INFORMATION
+Education
+9158990988/9158997508
+Phone
+monde_rahul@yahoo.co.in
+Email
+16 years (approximately)
+Total work experienceRahul Monde
+Solution Architect & Technical Lead - Cloud,
+DevOps & AI
+Strategic technical leader with a 16-year track record of architecting scalable
+enterprise solutions on Azure and Google Apigee. Expert in modernizing
+infrastructure via Kubernetes and Docker while driving the SDLC through Azure
+DevOps and GitHub. Beyond the code, I bridge the gap between business and
+technology—leading pre-sales proposals, managing studio-level talent operations,
+and spearheading GenAI integration to optimize engineering workflows.
+Experience
+Cloud Infrastructure & Platform Engineering
+Hybrid-Cloud Governance: Manage the full lifecycle (provisioning, scaling, and
+decommissioning) of mission-critical infrastructure across Azure and GCP, ensuring
+99.9% uptime for client-facing APIs.
+AI-Augmented Automation: Accelerated infrastructure-as-code (IaC) delivery by 30%
+through the strategic implementation of GitHub Copilot as a pair-programmer for
+Ansible playbooks, Python/Nodejs automations.
+Custom Tooling & Integration: Engineered high-performance utilities using Node.js
+and Python to automate administrative asks and extend the capabilities of the Apogee
+Edge platform.
+DevSecOps & Security Compliance
+Enterprise Security Guardrails: Enforce rigorous security standards across the SDLC
+by integrating DevSecOps scanning. tools (Mend, SonarQube, AquaSec, Checkmarx)
+into CI/CD pipelines.
+Vulnerability Remediation: Lead continuous monitoring and proactive mitigation
+efforts to ensure all infrastructure and application code remains compliant with global
+security benchmarks.
+Artificial Intelligence Adoption
+Completed Generative AI trainings arranged within the organization. - Very well
+versed with AI terminologies such as RAG, LLMs, Agents, MCP, Workflows, fine
+tuning, etc.
+Built and experimented applications using Azure foundry portal, Azure AI search to
+build knowledge base.
+Deployed GPT models and integrated it using GCP Apigee proxy for rate limiting and
+load balancing. - Defined context and Guardrails for customer codebase to reduce the
+tokenization and hallucinations which has helped developers to create a clean code. -
+Interacted and used pair programming apps such as GitHub Copilot, Factory (droid),
+Claude. - Learned and implemented agents in Enterprise AI tool developed by Globant
+to provide sentiment analysis.
+Solution Architect & Tech lead - Cloud, DevOps, AIMay 2019 - Present
+Globant India Pvt. Ltd.
+Azure DevOps
+Google Cloud - Apogee
+Terraform
+Azure Cloud
+Python
+Docker/Kubernetes
+English
+Marathi
+HindiExpertise
+Language
+Bachelors of Science - Information
+Technology  
+2005 - 2008
+May 2016 - May-2019
+Cognizant Technology Solutions 
+AWS Clound Engineer
+Sep 2014 - Mar - 2016
+Tata Consultancy Services
+AWS cloud Admin/Unix administrat
+Aug 2012 - Sept 2014
+Production Support Engineer
+Cybage Software 
+Apr 2012 - Aug -2012
+Unix Administrator
+SANPulse
+Nov 2009 - Apr - 2012
+Unix L1 Support Engineer
+Tech Mahindra
+Github/GitHub Copilot
+PowerShell/Shell
+Ansible
+Linkedin
+www.linkedin.com/in/rahul-monde-
+ab44b412
+website - https://www.monderahul.in
+2003 - 2005
+Higher Secondary school  education
+1993 - 2003
+Seondary school education Apigee
+Apigee

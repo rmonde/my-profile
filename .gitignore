@@ -4,5 +4,10 @@
 # Working files from PDF editing & image conversion (safe to ignore)
 _*.png
 _*.pdf
+_*.md
 profile.jpg
 Resume-Rahul_Monde.original.pdf
+
+# Resume build artifacts (the .docx and .ATS.pdf are deliverables; keep them)
+# but the build script itself doesn't need to ship
+build_resume.js
