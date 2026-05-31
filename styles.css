@@ -516,6 +516,98 @@ a:hover { color: var(--heading); }
     background: rgba(138, 150, 178, 0.08);
     border: 1px solid var(--line-2);
 }
+.cert-progress .cert-status-tag {
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid rgba(251, 191, 36, 0.35);
+}
+.cert-progress .cert-icon {
+    background: rgba(251, 191, 36, 0.1);
+    color: #fbbf24;
+}
+
+/* "Verified on Credly →" link in section sub */
+.section-link {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s ease, color .2s ease;
+    white-space: nowrap;
+}
+.section-link:hover {
+    color: var(--heading);
+    border-bottom-color: var(--primary);
+}
+
+/* Previously-held compact list */
+.cert-history {
+    margin-top: 36px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 28px 22px;
+}
+.cert-history-title {
+    color: var(--heading);
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.04em;
+}
+.cert-history-sub {
+    color: var(--text-dim);
+    margin: 0 0 20px;
+    font-size: 0.88rem;
+}
+.cert-history-group {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 14px;
+    padding: 12px 0;
+    border-top: 1px dashed var(--line);
+    align-items: start;
+}
+.cert-history-group:first-of-type { border-top: 1px solid var(--line); }
+.cert-issuer-label {
+    color: var(--primary);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    padding-top: 6px;
+}
+.cert-pill-row {
+    list-style: none;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.cert-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    color: var(--text);
+    transition: border-color .2s ease;
+}
+.cert-pill:hover { border-color: var(--primary); }
+.cert-pill-name { color: var(--text); }
+.cert-pill-meta {
+    color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.74rem;
+    padding-left: 8px;
+    border-left: 1px solid var(--line-2);
+}
+
+@media (max-width: 720px) {
+    .cert-history-group { grid-template-columns: 1fr; gap: 8px; }
+    .cert-issuer-label { padding-top: 0; }
+}
 .cert-icon {
     width: 44px; height: 44px;
     border-radius: 10px;
