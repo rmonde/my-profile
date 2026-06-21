@@ -1,0 +1,189 @@
+Rahul Monde
+
+Solution Architect & Technical Lead · Cloud, DevOps & AI
+
+India | +91 9158990988 | monde_rahul@yahoo.co.in
+
+linkedin.com/in/rahul-monde | monderahul.in | github.com/rmonde |
+English · Hindi · Marathi
+
+PROFESSIONAL SUMMARY
+
+Solution Architect and Technical Lead with 16 years across Azure, GCP
+and AWS — currently pivoting from Cloud/DevOps engineering into AI
+Engineering. Architect of hybrid-cloud platforms running at 99.9%
+uptime, accelerator of Infrastructure-as-Code delivery by 30% through
+AI-assisted automation, and integrator of Generative AI workflows (Azure
+AI Foundry, Azure AI Search, GPT-on-Apigee gateways, sentiment-analysis
+agents) into enterprise environments. Trusted by customers for pre-sales
+architecture, DevSecOps governance, and platform reliability at scale.
+
+CORE SKILLS
+
+-   Cloud Platforms: Microsoft Azure (4/5), Google Cloud Platform (GCP),
+    Amazon Web Services (AWS), hybrid-cloud & multi-cloud operations.
+
+-   AI & Generative AI: Large Language Models (LLMs), Generative AI
+    (GenAI), Retrieval-Augmented Generation (RAG), AI Agents, Model
+    Context Protocol (MCP), prompt context & guardrail design, Azure AI
+    Foundry, Azure AI Search, vector knowledge bases, GPT model
+    deployment.
+
+-   Containers & Orchestration: Kubernetes (containerized workloads,
+    manifest authoring, troubleshooting), Docker, container lifecycle
+    management.
+
+-   Infrastructure as Code (IaC): Terraform, Azure Resource Manager
+    (ARM) templates, Ansible, configuration management.
+
+-   DevOps & CI/CD: Azure DevOps pipelines, CI/CD design, GitHub, GitHub
+    Copilot pair-programming, JFrog Artifactory, release automation.
+
+-   DevSecOps & Security: SonarQube, Mend, AquaSec, Checkmarx, SCA,
+    vulnerability remediation, security compliance, pipeline hardening.
+
+-   API Platform: Google Apigee (Edge) — proxy design, rate limiting,
+    load balancing, REST API gateway extension via Node.js/Python
+    utilities.
+
+-   Programming & Scripting: Python, Node.js, PowerShell, Shell/Bash,
+    automation utilities.
+
+-   Observability & SRE: Prometheus, Grafana (foundational), reliability
+    engineering practices, incident response.
+
+-   Leadership: Pre-sales solution proposals, technical leadership,
+    talent operations, customer architecture reviews, knowledge sharing
+    (LinkedIn, Medium).
+
+CERTIFICATIONS
+
+13 certifications across Microsoft Azure, Google Cloud, AWS and CNCF —
+full wallet verifiable at credly.com/users/rahul-monde.
+
+-   Active: Generative AI Leader Certification — Google Cloud. Expires
+    September 2028.
+
+-   In progress: Microsoft Certified: Azure AI Engineer Associate
+    (AI-102) — target 2026. Focus: Azure AI Foundry, Azure AI Search,
+    responsible AI.
+
+-   Previously held — Microsoft Azure: DevOps Engineer Expert (AZ-400,
+    2022); Azure Security Engineer Associate (AZ-500, 2023); Azure
+    Administrator Associate (AZ-104, 2022).
+
+-   Previously held — Google Cloud: Professional Cloud Architect (2021);
+    Professional Data Engineer (2021); Associate Cloud Engineer (2025).
+
+-   Previously held — Amazon Web Services: Solutions Architect —
+    Professional (2020); DevOps Engineer — Professional (2021);
+    Solutions Architect — Associate (2020); SysOps Administrator —
+    Associate (2021).
+
+-   Previously held — CNCF / Linux Foundation: Certified Kubernetes
+    Administrator (CKA, 2024).
+
+PROFESSIONAL EXPERIENCE
+
+Globant India Pvt. Ltd. · India May 2019 – Present
+
+Solution Architect & Technical Lead — Cloud, DevOps & AI
+
+-   Govern the full lifecycle (provisioning, scaling, decommissioning)
+    of mission-critical infrastructure across hybrid Azure and GCP
+    environments, sustaining 99.9% uptime for client-facing APIs.
+
+-   Accelerated Infrastructure-as-Code (IaC) delivery by 30% by
+    introducing GitHub Copilot as a pair-programmer across Ansible
+    playbooks, Python and Node.js automation libraries.
+
+-   Designed and deployed Large Language Model (LLM) integrations: GPT
+    models served behind Google Apigee proxies for rate limiting and
+    load balancing, with engineered prompt context and guardrails that
+    reduced token consumption and hallucinations on customer codebases.
+
+-   Built and shipped a sentiment-analysis AI Agent inside Globant’s
+    Enterprise AI tool, classifying free-form feedback and routing it to
+    the right squad.
+
+-   Prototyped RAG applications on Azure AI Foundry to build searchable
+    knowledge bases over enterprise document sets.
+
+-   Engineered high-performance Node.js and Python utilities that
+    extended the Apigee Edge platform with custom administration tooling
+    and automated repetitive operational asks.
+
+-   Embedded DevSecOps scanning (Mend, SonarQube, AquaSec, Checkmarx)
+    into Azure DevOps CI/CD pipelines and led vulnerability remediation
+    across infrastructure and application code.
+
+-   Operate as the customer-facing technical lead: pre-sales
+    architecture proposals, solution design reviews, and studio-level
+    talent operations including hiring and capability planning. Active
+    practitioner of AI-assisted engineering (GitHub Copilot, Factory,
+    Claude); share learnings on LinkedIn and Medium.
+
+Cognizant Technology Solutions · India May 2016 – May 2019
+
+AWS Cloud Engineer
+
+-   Designed, provisioned and operated AWS infrastructure for enterprise
+    customers, including compute, storage, networking and IAM
+    configurations across multiple workloads.
+
+-   Supported cloud migration and modernization engagements — taking
+    legacy on-premises workloads to AWS with a focus on cost, security
+    and reliability.
+
+-   Automated routine cloud operations using Python and Shell scripting,
+    reducing manual toil for the operations team.
+
+Tata Consultancy Services · India Sep 2014 – Mar 2016
+
+AWS Cloud Administrator / Unix Administrator
+
+-   Administered hybrid AWS and Unix workloads for regulated customer
+    environments — provisioning, patching, monitoring and automating
+    routine operations.
+
+-   Wrote Shell automation to streamline patching cycles and reduce
+    change-window risk.
+
+Cybage Software · India Aug 2012 – Sep 2014
+
+Production Support Engineer
+
+-   Owned 24×7 production support for revenue-critical services —
+    incident triage, root cause analysis, and runbook hardening to
+    prevent recurrence.
+
+-   Partnered with development teams on reliability improvements driven
+    by production incident learnings.
+
+SANPulse Technologies · India Apr 2012 – Aug 2012
+
+Unix Administrator
+
+-   Provided Unix systems administration and operational support during
+    a short-term engagement.
+
+Tech Mahindra · India Nov 2009 – Apr 2012
+
+Unix L1 Support Engineer
+
+-   First-line Unix support — handled incidents, server health checks
+    and routine administration tasks.
+
+SELECTED PROJECTS
+
+-   Kubernetes Troubleshooting Assistant (2026, personal project) —
+    Built a working RAG assistant on Azure OpenAI
+    (text-embedding-3-small, GPT-4o) and Azure AI Search (HNSW vector
+    index, top-3 retrieval), exposed as a Flask HTTP API. Phased build:
+    embedding verification, index creation, chunked ingestion, grounded
+    prompt pipeline, Flask wrapper. Knowledge base covers 11 Kubernetes
+    failure modes; answers constrained to retrieved context to prevent
+    hallucination.
+
+Education: Bachelor of Science (B.Sc.) — Information Technology 2005 –
+2008
