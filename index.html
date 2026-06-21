@@ -356,21 +356,31 @@
                     </ul>
                 </article>
 
-                <article class="project-card project-card--writing">
+                <article class="project-card">
                     <header>
-                        <span class="proj-tag">Writing</span>
-                        <h3>LinkedIn &amp; Medium</h3>
+                        <span class="proj-tag">SRE · Incident</span>
+                        <h3>CoreDNS on AKS — incident write-up</h3>
                     </header>
-                    <p>I share debugging arcs, wrong hypotheses, and the small insights that save teams hours. Topics: Azure, Kubernetes, Apigee, Agentic AI.</p>
-                    <a class="proj-link" href="https://www.linkedin.com/in/rahul-monde-ab44b412" target="_blank" rel="noopener">Visit LinkedIn →</a>
+                    <p>Production incident I led: name-resolution failures on an AKS-hosted Microgateway. Walk-through of the symptoms, the diagnostic path through CoreDNS, conntrack and NodeLocal DNS, and the lessons that fed our reliability roadmap.</p>
+                    <ul class="proj-stack">
+                        <li>AKS</li><li>CoreDNS</li><li>Kubernetes networking</li><li>Incident response</li>
+                    </ul>
+                    <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7453091614983512064/" target="_blank" rel="noopener">Read on LinkedIn →</a>
                 </article>
 
-                <article class="project-card project-card--cta">
+                <article class="project-card">
                     <header>
-                        <span class="proj-tag">Coming soon</span>
-                        <h3>My first Agentic AI build</h3>
+                        <span class="proj-tag">RAG · Shipped</span>
+                        <h3>Kubernetes Troubleshooting Assistant</h3>
                     </header>
-                    <p>An autonomous agent built with the Claude Agent SDK — turning my "build at least one agent of my own" goal into a shipped artifact.</p>
+                    <p>Working RAG assistant on <strong>Azure OpenAI</strong> (text-embedding-3-small, GPT-4o) and <strong>Azure AI Search</strong> (HNSW vector index, top-3 retrieval), exposed as a <strong>Flask</strong> HTTP API. Knowledge base covers 11 K8s failure modes; answers constrained to retrieved context to prevent hallucination.</p>
+                    <ul class="proj-stack">
+                        <li>Azure OpenAI</li><li>Azure AI Search</li><li>HNSW</li><li>Flask</li><li>Python</li>
+                    </ul>
+                    <div class="proj-links">
+                        <a class="proj-link" href="https://github.com/rmonde/Kubernetes-assistant" target="_blank" rel="noopener">View on GitHub →</a>
+                        <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7474348362302091264/" target="_blank" rel="noopener">Read on LinkedIn →</a>
+                    </div>
                 </article>
             </div>
         </section>

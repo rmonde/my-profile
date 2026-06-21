@@ -772,6 +772,13 @@ a:hover { color: var(--heading); }
     font-weight: 600;
     font-size: 0.9rem;
 }
+.proj-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 12px;
+}
+.proj-links .proj-link { margin-top: 0; }
 .project-card--cta {
     background:
         linear-gradient(180deg, rgba(67,97,238,0.08), rgba(114,9,183,0.05)),
