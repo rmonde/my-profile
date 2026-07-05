@@ -84,7 +84,8 @@
                         <li class="chip">Azure</li>
                         <li class="chip">Kubernetes</li>
                         <li class="chip">Terraform</li>
-                        <li class="chip">Apigee</li>
+                        <li class="chip">GitOps · ArgoCD</li>
+                        <li class="chip">Prometheus</li>
                         <li class="chip">RAG</li>
                         <li class="chip">Agents</li>
                     </ul>
@@ -312,6 +313,59 @@
             </header>
 
             <div class="projects-grid">
+                <!-- Shipped, linkable — lead with these -->
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">RAG · Shipped</span>
+                        <h3>Kubernetes Troubleshooting Assistant</h3>
+                    </header>
+                    <p>Working RAG assistant on <strong>Azure OpenAI</strong> (text-embedding-3-small, GPT-4o) and <strong>Azure AI Search</strong> (HNSW vector index, top-3 retrieval), exposed as a <strong>Flask</strong> HTTP API. Knowledge base covers 11 K8s failure modes; answers constrained to retrieved context to prevent hallucination.</p>
+                    <ul class="proj-stack">
+                        <li>Azure OpenAI</li><li>Azure AI Search</li><li>HNSW</li><li>Flask</li><li>Python</li>
+                    </ul>
+                    <div class="proj-links">
+                        <a class="proj-link" href="https://github.com/rmonde/Kubernetes-assistant" target="_blank" rel="noopener">View on GitHub →</a>
+                        <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7474348362302091264/" target="_blank" rel="noopener">Read on LinkedIn →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">GitOps · Shipped</span>
+                        <h3>DevOpsWithAI — GitOps on AKS</h3>
+                    </header>
+                    <p>Multi-service Kubernetes application (Auth · Books · User · Postgres) deployed via <strong>ArgoCD</strong> with Kustomize base+overlays for dev/qa/prod. <strong>ApplicationSet</strong> generates one Application per environment; GitHub Actions builds and pushes images to ACR, ArgoCD reconciles from Git. Monitored via <strong>kube-prometheus-stack</strong> Operator with a ServiceMonitor per workload.</p>
+                    <ul class="proj-stack">
+                        <li>AKS</li><li>ArgoCD</li><li>Kustomize</li><li>GitHub Actions</li><li>kube-prometheus-stack</li>
+                    </ul>
+                    <a class="proj-link" href="https://github.com/rmonde/DevOpsWithAI" target="_blank" rel="noopener">View on GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">Azure · Serverless</span>
+                        <h3>GitHub Enterprise Dashboard</h3>
+                    </header>
+                    <p>Serverless dashboard that pulls repos, branches and PRs from GitHub Enterprise for 15+ repositories and surfaces stale artefacts to product owners. <strong>Azure Functions</strong> (Python) with a Timer trigger caches into <strong>Azure Table Storage</strong>; <strong>Static Web App</strong> serves the read-only UI; <strong>Key Vault</strong> holds the PAT; <strong>Application Insights</strong> for monitoring. Provisioned end-to-end via <strong>Terraform</strong>.</p>
+                    <ul class="proj-stack">
+                        <li>Azure Functions</li><li>Static Web Apps</li><li>Table Storage</li><li>Key Vault</li><li>App Insights</li><li>Terraform</li>
+                    </ul>
+                    <a class="proj-link" href="https://github.com/rmonde/GitHub-App" target="_blank" rel="noopener">View on GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <header>
+                        <span class="proj-tag">SRE · Incident</span>
+                        <h3>CoreDNS on AKS — incident write-up</h3>
+                    </header>
+                    <p>Production incident I led: name-resolution failures on an AKS-hosted Microgateway. Walk-through of the symptoms, the diagnostic path through CoreDNS, conntrack and NodeLocal DNS, and the lessons that fed our reliability roadmap.</p>
+                    <ul class="proj-stack">
+                        <li>AKS</li><li>CoreDNS</li><li>Kubernetes networking</li><li>Incident response</li>
+                    </ul>
+                    <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7453091614983512064/" target="_blank" rel="noopener">Read on LinkedIn →</a>
+                </article>
+
+                <!-- Enterprise / Globant work -->
                 <article class="project-card">
                     <header>
                         <span class="proj-tag">Agentic AI</span>
@@ -354,33 +408,6 @@
                     <ul class="proj-stack">
                         <li>Terraform</li><li>Ansible</li><li>GitHub Copilot</li>
                     </ul>
-                </article>
-
-                <article class="project-card">
-                    <header>
-                        <span class="proj-tag">SRE · Incident</span>
-                        <h3>CoreDNS on AKS — incident write-up</h3>
-                    </header>
-                    <p>Production incident I led: name-resolution failures on an AKS-hosted Microgateway. Walk-through of the symptoms, the diagnostic path through CoreDNS, conntrack and NodeLocal DNS, and the lessons that fed our reliability roadmap.</p>
-                    <ul class="proj-stack">
-                        <li>AKS</li><li>CoreDNS</li><li>Kubernetes networking</li><li>Incident response</li>
-                    </ul>
-                    <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7453091614983512064/" target="_blank" rel="noopener">Read on LinkedIn →</a>
-                </article>
-
-                <article class="project-card">
-                    <header>
-                        <span class="proj-tag">RAG · Shipped</span>
-                        <h3>Kubernetes Troubleshooting Assistant</h3>
-                    </header>
-                    <p>Working RAG assistant on <strong>Azure OpenAI</strong> (text-embedding-3-small, GPT-4o) and <strong>Azure AI Search</strong> (HNSW vector index, top-3 retrieval), exposed as a <strong>Flask</strong> HTTP API. Knowledge base covers 11 K8s failure modes; answers constrained to retrieved context to prevent hallucination.</p>
-                    <ul class="proj-stack">
-                        <li>Azure OpenAI</li><li>Azure AI Search</li><li>HNSW</li><li>Flask</li><li>Python</li>
-                    </ul>
-                    <div class="proj-links">
-                        <a class="proj-link" href="https://github.com/rmonde/Kubernetes-assistant" target="_blank" rel="noopener">View on GitHub →</a>
-                        <a class="proj-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7474348362302091264/" target="_blank" rel="noopener">Read on LinkedIn →</a>
-                    </div>
                 </article>
             </div>
         </section>
